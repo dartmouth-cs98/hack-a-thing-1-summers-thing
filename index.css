@@ -1,0 +1,66 @@
+html {
+  text-align: center;
+  color: #315676;
+  font-family: "Allerta";
+  }
+h1 {
+  color: #4781af;
+  font-family: "Alfa Slab One";
+}
+h2 {
+  color: #4781af;
+  font-family: "Alfa Slab One";
+}
+
+/*Learned flex boxes from https://flexboxfroggy.com*/
+.flex-container {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: white;
+  align-items: center;
+}
+
+.flex-container-imgs {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  align-items: center;
+}
+
+.flex-container-solo {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-color: white;
+}
+
+/* Used https://www.w3schools.com/css/css3_buttons.asp
+basic button styling as jumping off point */
+.gobtn {
+  background-color: #4781af;
+  color: white;
+  padding: 16px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  font-family: "Allerta";
+}
+
+.gobtn:hover {
+  background-color: #315676;
+}
+
+.banner { /*Really just an inactive button*/
+  background-color: #9bd1ff;
+  color: #315676;
+  padding: 16px;
+  font-size: 18px;
+  border: none;
+  cursor: initial;
+  /* Learned about cursors from https://www.w3schools.com/cssref/pr_class_cursor.asp */
+  font-family: "Allerta";
+  visibility: hidden;
+  /* Learned about visibility from https://www.w3schools.com/cssref/pr_class_visibility.asp */
+  outline: 0;
+}
+
